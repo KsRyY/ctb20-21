@@ -1,6 +1,6 @@
 <template>
 	<Layout>
-		<div v-html="$page.articles.content" />
+		<div class="reading" v-html="$page.articles.content" />
 	</Layout>
 </template>
 
@@ -22,3 +22,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.reading {
+	line-height: 2;
+}
+</style>
