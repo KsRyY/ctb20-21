@@ -18,13 +18,13 @@ module.exports = {
 				typeName: 'Articles',
 			},
 		},
-		{
+		/* {
 			use: '@gridsome/source-filesystem',
 			options: {
 				path: './posts/paper.md',
 				typeName: 'Paper',
 			},
-		},
+		}, */
 	],
 	transformers: {
 		remark: {
