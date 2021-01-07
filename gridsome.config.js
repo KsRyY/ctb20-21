@@ -35,6 +35,5 @@ module.exports = {
 	},
 	templates: {
 		Articles: '/articles/:slug',
-		Paper: '/paper',
 	},
 }
